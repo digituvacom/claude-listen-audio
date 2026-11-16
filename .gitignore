@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# listening outputs
+*_listen/
+report.md
+report.json
+transcript.txt
+spectrogram.png
