@@ -14,6 +14,12 @@ zaman damgalı döküm, hassas akustik ölçümler ve Claude'un gerçekten *baka
 
 [English](README.md) · **Türkçe**
 
+<a href="https://www.youtube.com/watch?v=XZR8gpV7_Ys"><img src="https://img.youtube.com/vi/XZR8gpV7_Ys/maxresdefault.jpg" alt="listen-audio'nun 34 saniyelik tanıtım videosunu YouTube'da izleyin" width="860"></a>
+
+<sub>▶ <a href="https://www.youtube.com/watch?v=XZR8gpV7_Ys">34 saniyelik tanıtım videosunu izleyin</a> · <a href="https://www.youtube.com/watch?v=knZadfUNXOc">English video</a></sub>
+
+<br><br>
+
 <img src="docs/example-spectrogram.png" alt="Test kaydının dalga formu, ses seviyesi eğrisi ve mel spektrogramı: konuşma, sessizlik, 440 Hz ton ve beyaz gürültü" width="860">
 
 <sub>Tek kayıt, dört ses: konuşma (0–5,7 sn) · sessizlik · saf 440 Hz ton · beyaz gürültü. Claude bu görseli okuyup hepsini birbirinden ayırıyor.</sub>

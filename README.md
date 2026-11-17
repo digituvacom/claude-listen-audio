@@ -14,6 +14,12 @@ a timestamped transcript, precise acoustic measurements, and a spectrogram it ca
 
 **English** · [Türkçe](README.tr.md)
 
+<a href="https://www.youtube.com/watch?v=knZadfUNXOc"><img src="https://img.youtube.com/vi/knZadfUNXOc/maxresdefault.jpg" alt="Watch the 34-second listen-audio demo on YouTube" width="860"></a>
+
+<sub>▶ <a href="https://www.youtube.com/watch?v=knZadfUNXOc">Watch the 34-second demo</a> · <a href="https://www.youtube.com/watch?v=XZR8gpV7_Ys">Türkçe video</a></sub>
+
+<br><br>
+
 <img src="docs/example-spectrogram.png" alt="Waveform, loudness curve and mel spectrogram of a test clip: speech, silence, a 440 Hz tone and white noise" width="860">
 
 <sub>One clip, four sounds: speech (0–5.7 s) · silence · a pure 440 Hz tone · white noise. Claude reads this image and tells them apart.</sub>
