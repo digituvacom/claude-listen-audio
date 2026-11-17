@@ -213,5 +213,5 @@ Daha büyük bir model kullanın (`--model turbo` ya da `large-v3`). Kısa veya 
 [MIT](LICENSE) © 2026 Digituva Yazılım
 
 <div align="center">
-<sub>Claude Code ile geliştirildi · <a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a>, <a href="https://librosa.org">librosa</a> ve <a href="https://matplotlib.org">matplotlib</a> ile çalışır</sub>
+<sub>Digituva Yazılım tarafından geliştirildi · <a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a>, <a href="https://librosa.org">librosa</a> ve <a href="https://matplotlib.org">matplotlib</a> ile çalışır</sub>
 </div>
