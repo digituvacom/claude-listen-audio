@@ -211,5 +211,5 @@ Use `--start` / `--end` for a first pass, or run the whole thing in the backgrou
 [MIT](LICENSE) © 2026 Digituva Yazılım
 
 <div align="center">
-<sub>Built with Claude Code · Powered by <a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a>, <a href="https://librosa.org">librosa</a> and <a href="https://matplotlib.org">matplotlib</a></sub>
+<sub>Built with Digituva Yazılım · Powered by <a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a>, <a href="https://librosa.org">librosa</a> and <a href="https://matplotlib.org">matplotlib</a></sub>
 </div>
