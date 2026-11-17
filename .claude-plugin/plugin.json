@@ -1,0 +1,15 @@
+{
+  "name": "listen-audio",
+  "displayName": "Listen Audio",
+  "version": "1.0.0",
+  "description": "Give Claude ears: transcribe speech with Whisper, measure loudness, pitch, tempo and key, tag sound events, and render a spectrogram Claude can look at.",
+  "author": {
+    "name": "Digituva Yazılım",
+    "url": "https://github.com/digituvacom"
+  },
+  "homepage": "https://github.com/digituvacom/claude-listen-audio",
+  "repository": "https://github.com/digituvacom/claude-listen-audio",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": ["audio", "speech-to-text", "whisper", "transcription", "spectrogram", "music", "turkish"]
+}

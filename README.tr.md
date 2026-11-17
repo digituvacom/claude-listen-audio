@@ -75,27 +75,38 @@ Her şey **kendi bilgisayarınızda** çalışır. Ses hiçbir yere yüklenmez; 
 
 ## Kurulum
 
-**1. Skills klasörüne klonlayın**
+### Plugin olarak (önerilen)
 
-```bash
-git clone https://github.com/digituvacom/claude-listen-audio ~/.claude/skills/listen-audio
+Claude Code içinde şunu çalıştırın:
+
+```
+/plugin install listen-audio --marketplace digituvacom/claude-listen-audio
 ```
 
-<sub>Windows: `%USERPROFILE%\.claude\skills\listen-audio`</sub>
+<sub>Claude Code 2.1.275'ten eski sürümlerde iki adımda: önce `/plugin marketplace add digituvacom/claude-listen-audio`, sonra `/plugin install listen-audio@digituva`.</sub>
 
-**2. Bağımlılıkları kurun** (Python 3.9+)
+Ardından Python bağımlılıklarını bir kez kurun (Python 3.9+):
 
 ```bash
-python -m pip install -r ~/.claude/skills/listen-audio/requirements.txt
+python -m pip install faster-whisper librosa matplotlib soundfile
 ```
 
-**3. İsteğe bağlı: ses olayı etiketleme**
+İsteğe bağlı, ses olayı etiketleme için:
 
 ```bash
 python -m pip install transformers torch
 ```
 
-**4. Claude Code'u yeniden başlatın.** Hepsi bu.
+Güncellemeler `/plugin update listen-audio` ile gelir. Bir bağımlılık eksikse Claude ilk kullanımda fark eder ve neyi kurmanız gerektiğini söyler.
+
+### Düz skill olarak
+
+```bash
+git clone https://github.com/digituvacom/claude-listen-audio ~/.claude/skills/listen-audio
+python -m pip install -r ~/.claude/skills/listen-audio/requirements.txt
+```
+
+<sub>Windows: `%USERPROFILE%\.claude\skills\listen-audio`. Sonrasında Claude Code'u yeniden başlatın.</sub>
 
 ## Kullanım
 

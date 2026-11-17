@@ -12,8 +12,12 @@ waveform + loudness + mel-spectrogram PNG. Combine them to describe what the fil
 ## Run it
 
 ```bash
-python "<skill-dir>/scripts/listen.py" "<audio-or-video-file>" --out "<scratchpad>/listen/<name>"
+python "${CLAUDE_PLUGIN_ROOT}/scripts/listen.py" "<audio-or-video-file>" --out "<scratchpad>/listen/<name>"
 ```
+
+When installed as a plugin, `${CLAUDE_PLUGIN_ROOT}` above is already replaced with the real path. If it still
+reads literally `${CLAUDE_PLUGIN_ROOT}`, the skill was installed as a plain folder: use this skill's base
+directory instead.
 
 Useful flags:
 - `--mode transcribe|analyze|all` (default `all`). Use `analyze` for music/ambience where words don't matter; `transcribe` when only the words matter and speed is important.

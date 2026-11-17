@@ -75,27 +75,38 @@ Everything runs **locally** on your machine. No audio is uploaded anywhere; only
 
 ## Install
 
-**1. Clone into your skills folder**
+### As a plugin (recommended)
 
-```bash
-git clone https://github.com/digituvacom/claude-listen-audio ~/.claude/skills/listen-audio
+Inside Claude Code, run:
+
+```
+/plugin install listen-audio --marketplace digituvacom/claude-listen-audio
 ```
 
-<sub>Windows: `%USERPROFILE%\.claude\skills\listen-audio`</sub>
+<sub>On Claude Code older than 2.1.275, use two steps: `/plugin marketplace add digituvacom/claude-listen-audio`, then `/plugin install listen-audio@digituva`.</sub>
 
-**2. Install dependencies** (Python 3.9+)
+Then install the Python dependencies once (Python 3.9+):
 
 ```bash
-python -m pip install -r ~/.claude/skills/listen-audio/requirements.txt
+python -m pip install faster-whisper librosa matplotlib soundfile
 ```
 
-**3. Optional: sound-event tagging**
+Optional, for sound-event tagging:
 
 ```bash
 python -m pip install transformers torch
 ```
 
-**4. Restart Claude Code.** That's it.
+Updates arrive with `/plugin update listen-audio`. If a dependency is missing, Claude notices on first use and tells you what to install.
+
+### As a plain skill
+
+```bash
+git clone https://github.com/digituvacom/claude-listen-audio ~/.claude/skills/listen-audio
+python -m pip install -r ~/.claude/skills/listen-audio/requirements.txt
+```
+
+<sub>Windows: `%USERPROFILE%\.claude\skills\listen-audio`. Restart Claude Code afterwards.</sub>
 
 ## Usage
 

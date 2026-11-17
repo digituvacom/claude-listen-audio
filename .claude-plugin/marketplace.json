@@ -1,0 +1,17 @@
+{
+  "name": "digituva",
+  "description": "Claude Code plugins by Digituva Yazılım",
+  "owner": {
+    "name": "Digituva Yazılım",
+    "url": "https://github.com/digituvacom"
+  },
+  "plugins": [
+    {
+      "name": "listen-audio",
+      "source": "./",
+      "description": "Give Claude ears: Whisper transcription, acoustic analysis, sound-event tags and spectrograms for any audio or video file.",
+      "category": "productivity",
+      "tags": ["audio", "speech-to-text", "whisper", "spectrogram"]
+    }
+  ]
+}
